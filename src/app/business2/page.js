@@ -165,7 +165,7 @@ const users = [
 function Card(props) {
     
     return (
-        <div style={{width: "100%", height: "100vh", margin: "0"}}>
+        <div style={{width: "100%", height: "250px", margin: "0"}}>
 
             <div style={{width: 350, height: 192, border: "solid 1px", borderRadius: 20, position: "relative", top: 20, left: 30}}>
 
@@ -188,7 +188,17 @@ function Card(props) {
 
                 <p style={{ position: "absolute", top: "80%", left: "15%", fontSize: "11px" }}>{props.user.address}</p>
 
-                <p style={{ position: "absolute", top: "40%", right: "5%", fontSize: "14px", color: "white" }}>{props.user.companyName}</p>
+                <p style={{ position: "absolute", top: "40%", right: "7%", fontSize: "14px", color: "white" }}>{props.user.companyName}</p>
+
+                <img style={{position: "absolute", top: "60%", left: "10%"}} src="./akar-icons_phone.svg"></img>
+
+                <img style={{position: "absolute", top: "70%", left: "10%"}} src="./line-md_email.svg"></img>
+
+                <img style={{position: "absolute", top: "80%", left: "10%"}} src="./system-uicons_location.svg"></img>
+
+                <img style={{position: "absolute", top: "60%", right: "10%"}} src="./QR Code.svg"></img>
+
+                <img style={{position: "absolute", top: "17%", right: "10%"}} src="./Logo000 1.svg"></img>
 
                 </div>
 
